@@ -1,0 +1,1 @@
+docker run --name RTH -d -p 4001:80 --dns 172.21.8.8  -i -v /home/francisco-gonzalez/Data/Proyectos/PHP/rth:/var/www/html -t php-7.0-mysql-oci8
